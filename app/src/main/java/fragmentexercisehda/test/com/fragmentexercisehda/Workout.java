@@ -3,7 +3,9 @@ package fragmentexercisehda.test.com.fragmentexercisehda;
 /**
  * Created by smaikap on 11/19/15.
  */
-public class Workout {
+public class Workout
+{
+
     private String _name;
     private String _description;
 
@@ -19,11 +21,11 @@ public class Workout {
         this._description = _description;
     }
 
-    public String get_name () {
+    public String getName () {
         return this._name;
     }
 
-    public String get_description () {
+    public String getDescription () {
         return this._description;
     }
 
